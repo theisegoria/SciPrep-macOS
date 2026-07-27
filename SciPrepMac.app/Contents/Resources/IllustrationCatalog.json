@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cell-membrane-editorial",
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "resourceName": "cell-membrane-editorial",
+    "caption": "Concept illustration · membrane transport",
+    "fallbackSymbol": "circle.hexagongrid",
+    "accessibilityLabel": "Editorial illustration of molecules crossing a cell membrane; no measured data is encoded."
+  },
+  {
+    "id": "chemistry-equilibrium-editorial",
+    "subject": "Chemistry",
+    "topic": "Equilibrium",
+    "resourceName": "chemistry-equilibrium-editorial",
+    "caption": "Concept illustration · molecular equilibrium",
+    "fallbackSymbol": "atom",
+    "accessibilityLabel": "Editorial illustration of molecules approaching equilibrium; no measured data is encoded."
+  },
+  {
+    "id": "physics-optics-circuit-editorial",
+    "subject": "Physics",
+    "topic": "Optics",
+    "resourceName": "physics-optics-circuit-editorial",
+    "caption": "Concept illustration · optics and circuits",
+    "fallbackSymbol": "viewfinder.circle",
+    "accessibilityLabel": "Editorial illustration inspired by an optical path and circuit components; no measured data is encoded."
+  },
+  {
+    "id": "psychology-neural-editorial",
+    "subject": "Psychology/Sociology",
+    "topic": "Cognition, Consciousness, Language",
+    "resourceName": "psychology-neural-editorial",
+    "caption": "Concept illustration · neural systems",
+    "fallbackSymbol": "brain.head.profile",
+    "accessibilityLabel": "Editorial illustration of neural pathways and cognition; no measured data is encoded."
+  }
+]

@@ -1,0 +1,11 @@
+SciPrep macOS public artifact manifest
+Version: 1.0.0
+Build: 1
+Bundle identifier: com.sciprep.mac
+Minimum macOS: 26.0
+Architectures: arm64, x86_64
+Signing: ad-hoc signed; not notarized
+Notarization: not notarized
+Source: intentionally omitted
+Source revision: 6aeec0006915cdddbd5b2e49e51eccb2273dff31
+ZIP SHA-256: b391f746efbeb192d9b51003be32e1b28dce55e65f69bb9aa3473a799156ddf6

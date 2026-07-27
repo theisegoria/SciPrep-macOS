@@ -1,0 +1,608 @@
+{
+  "Biology": {
+    "Cell Biology": {
+      "outcome": "net water uptake by cells",
+      "unit": "% change in cell volume",
+      "independentVariable": "extracellular solute (NaCl) concentration",
+      "lowDose": "50 mM NaCl",
+      "mediumDose": "150 mM NaCl",
+      "highDose": "450 mM NaCl",
+      "mechanism": "osmotic water movement across the semipermeable plasma membrane",
+      "archetype": "line",
+      "conceptNote": "Water moves osmotically from regions of lower solute concentration to higher solute concentration, so cells swell in hypotonic media and shrink in hypertonic media."
+    },
+    "Molecular Biology": {
+      "outcome": "relative gene transcription level",
+      "unit": "fold change in mRNA",
+      "independentVariable": "inducer (IPTG) concentration",
+      "lowDose": "10 uM IPTG",
+      "mediumDose": "100 uM IPTG",
+      "highDose": "1000 uM IPTG",
+      "mechanism": "inducer binding releases the repressor from the operator to permit RNA polymerase transcription",
+      "archetype": "line",
+      "conceptNote": "Gene expression is controlled at the level of transcription, where inducers can inactivate repressor proteins and allow RNA polymerase to bind the promoter."
+    },
+    "Genetics": {
+      "outcome": "offspring phenotype ratio",
+      "unit": "ratio (dominant:recessive)",
+      "independentVariable": "parental genotype cross",
+      "lowDose": "AA x aa",
+      "mediumDose": "Aa x aa",
+      "highDose": "Aa x Aa",
+      "mechanism": "Mendelian segregation and independent assortment of alleles during gamete formation",
+      "archetype": "punnett",
+      "conceptNote": "A monohybrid cross between two heterozygotes (Aa x Aa) yields a 3:1 dominant-to-recessive phenotypic ratio because alleles segregate independently into gametes."
+    },
+    "Cardiovascular System": {
+      "outcome": "cardiac output",
+      "unit": "L/min",
+      "independentVariable": "venous return (end-diastolic volume)",
+      "lowDose": "80 mL EDV",
+      "mediumDose": "130 mL EDV",
+      "highDose": "180 mL EDV",
+      "mechanism": "Frank-Starling stretch-dependent increase in myocardial contractile force",
+      "archetype": "line",
+      "conceptNote": "By the Frank-Starling mechanism, increased ventricular filling stretches cardiac muscle fibers and raises stroke volume, so cardiac output rises with venous return."
+    },
+    "Respiratory System": {
+      "outcome": "hemoglobin oxygen saturation",
+      "unit": "% saturation",
+      "independentVariable": "partial pressure of oxygen",
+      "lowDose": "20 mmHg pO2",
+      "mediumDose": "40 mmHg pO2",
+      "highDose": "100 mmHg pO2",
+      "mechanism": "cooperative binding of O2 to the four heme subunits of hemoglobin",
+      "archetype": "line",
+      "conceptNote": "The oxygen-hemoglobin dissociation curve is sigmoidal because cooperative binding makes each successive O2 molecule bind hemoglobin more readily."
+    },
+    "Renal System": {
+      "outcome": "glomerular filtration rate",
+      "unit": "mL/min",
+      "independentVariable": "afferent arteriole pressure (mean arterial pressure)",
+      "lowDose": "70 mmHg MAP",
+      "mediumDose": "100 mmHg MAP",
+      "highDose": "180 mmHg MAP",
+      "mechanism": "myogenic and tubuloglomerular feedback autoregulation of glomerular capillary pressure",
+      "archetype": "line",
+      "conceptNote": "Renal autoregulation holds glomerular filtration rate nearly constant over a wide range of arterial pressures by adjusting afferent arteriole resistance."
+    },
+    "Digestive System": {
+      "outcome": "rate of protein digestion",
+      "unit": "umol amino acid/min",
+      "independentVariable": "luminal pH",
+      "lowDose": "pH 2",
+      "mediumDose": "pH 5",
+      "highDose": "pH 8",
+      "mechanism": "pH-dependent activation and denaturation of digestive proteases such as pepsin",
+      "archetype": "line",
+      "conceptNote": "Each digestive enzyme has an optimal pH; pepsin is most active in the acidic stomach (pH 2), while trypsin works best in the alkaline small intestine."
+    },
+    "Nervous System": {
+      "outcome": "action potential firing frequency",
+      "unit": "spikes/s",
+      "independentVariable": "depolarizing stimulus current",
+      "lowDose": "0.2 nA",
+      "mediumDose": "0.6 nA",
+      "highDose": "1.2 nA",
+      "mechanism": "voltage-gated sodium channel activation once membrane potential reaches threshold",
+      "archetype": "line",
+      "conceptNote": "Action potentials are all-or-none, so stronger stimuli are encoded not by larger spikes but by an increased frequency of firing above threshold."
+    },
+    "Endocrine System": {
+      "outcome": "blood glucose concentration",
+      "unit": "mg/dL",
+      "independentVariable": "plasma insulin dose",
+      "lowDose": "5 mU/L insulin",
+      "mediumDose": "20 mU/L insulin",
+      "highDose": "80 mU/L insulin",
+      "mechanism": "insulin receptor signaling drives GLUT4 translocation and cellular glucose uptake",
+      "archetype": "line",
+      "conceptNote": "Insulin lowers blood glucose by binding its receptor and promoting GLUT4-mediated glucose uptake into muscle and adipose tissue."
+    },
+    "Immune System": {
+      "outcome": "serum antibody titer",
+      "unit": "antibody titer (arbitrary units)",
+      "independentVariable": "antigen exposure (immunization dose number)",
+      "lowDose": "1st exposure",
+      "mediumDose": "2nd exposure",
+      "highDose": "3rd exposure",
+      "mechanism": "memory B-cell clonal expansion and affinity maturation upon repeat antigen exposure",
+      "archetype": "groupedBar",
+      "conceptNote": "The secondary immune response produces a faster, larger, higher-affinity antibody titer than the primary response because of immunological memory B cells."
+    },
+    "Reproductive System": {
+      "outcome": "ovulation incidence",
+      "unit": "% of cycles ovulating",
+      "independentVariable": "luteinizing hormone (LH) surge magnitude",
+      "lowDose": "10 IU/L LH",
+      "mediumDose": "40 IU/L LH",
+      "highDose": "90 IU/L LH",
+      "mechanism": "estrogen-triggered positive feedback driving the mid-cycle LH surge that ruptures the follicle",
+      "archetype": "line",
+      "conceptNote": "A mid-cycle surge of luteinizing hormone, triggered by peak estrogen via positive feedback, induces ovulation by rupturing the mature ovarian follicle."
+    },
+    "Microbiology": {
+      "outcome": "bacterial population density",
+      "unit": "CFU/mL (log10)",
+      "independentVariable": "incubation time",
+      "lowDose": "2 h",
+      "mediumDose": "6 h",
+      "highDose": "12 h",
+      "mechanism": "exponential binary fission during the log phase of bacterial growth",
+      "archetype": "line",
+      "conceptNote": "Bacteria multiply by binary fission, producing exponential (logarithmic) growth during the log phase before nutrient limits force a stationary phase."
+    },
+    "Evolution": {
+      "outcome": "frequency of antibiotic-resistant allele",
+      "unit": "allele frequency",
+      "independentVariable": "antibiotic selective pressure (generations exposed)",
+      "lowDose": "5 generations",
+      "mediumDose": "20 generations",
+      "highDose": "50 generations",
+      "mechanism": "natural selection enriching pre-existing resistance alleles under directional selection",
+      "archetype": "line",
+      "conceptNote": "Natural selection increases the frequency of advantageous alleles over generations, as antibiotic exposure favors survival and reproduction of resistant variants."
+    }
+  },
+  "Chemistry": {
+    "Atomic Structure": {
+      "outcome": "first ionization energy",
+      "unit": "kJ/mol",
+      "independentVariable": "atomic number across a period",
+      "lowDose": "Z=11 (Na)",
+      "mediumDose": "Z=15 (P)",
+      "highDose": "Z=18 (Ar)",
+      "mechanism": "increasing effective nuclear charge with constant shielding",
+      "archetype": "line",
+      "conceptNote": "First ionization energy generally rises across a period because effective nuclear charge increases while electrons enter the same principal shell, pulling them more tightly."
+    },
+    "Chemical Bonding": {
+      "outcome": "bond dissociation energy",
+      "unit": "kJ/mol",
+      "independentVariable": "carbon-carbon bond order",
+      "lowDose": "single bond (ethane)",
+      "mediumDose": "double bond (ethene)",
+      "highDose": "triple bond (ethyne)",
+      "mechanism": "increased orbital overlap and shared electron density between nuclei",
+      "archetype": "bar",
+      "conceptNote": "Higher bond order means more shared electron pairs and greater orbital overlap, which shortens the bond and raises the energy required to break it."
+    },
+    "Stoichiometry": {
+      "outcome": "mass of precipitate formed",
+      "unit": "g",
+      "independentVariable": "moles of limiting reactant added",
+      "lowDose": "0.010 mol AgNO3",
+      "mediumDose": "0.025 mol AgNO3",
+      "highDose": "0.050 mol AgNO3",
+      "mechanism": "fixed mole ratios fixed by the balanced chemical equation",
+      "archetype": "line",
+      "conceptNote": "Product yield is fixed by the limiting reactant through the balanced equation's mole ratios; once one reactant is exhausted, adding more of the other yields no additional product."
+    },
+    "Thermodynamics": {
+      "outcome": "Gibbs free energy change",
+      "unit": "kJ/mol",
+      "independentVariable": "reaction temperature",
+      "lowDose": "273 K",
+      "mediumDose": "500 K",
+      "highDose": "800 K",
+      "mechanism": "the entropy term TdeltaS increasingly offsetting enthalpy in deltaG = deltaH - TdeltaS",
+      "archetype": "line",
+      "conceptNote": "Spontaneity is governed by deltaG = deltaH - TdeltaS, so for an endothermic, entropy-increasing reaction raising temperature makes deltaG more negative and the process spontaneous."
+    },
+    "Chemical Kinetics": {
+      "outcome": "initial reaction rate",
+      "unit": "mol/(L*s)",
+      "independentVariable": "reactant concentration",
+      "lowDose": "0.10 M",
+      "mediumDose": "0.30 M",
+      "highDose": "0.60 M",
+      "mechanism": "collision frequency and activation energy thresholds",
+      "archetype": "line",
+      "conceptNote": "Rate increases with reactant concentration because more frequent molecular collisions raise the number of successful collisions exceeding the activation energy per unit time."
+    },
+    "Equilibrium": {
+      "outcome": "equilibrium yield of product",
+      "unit": "% conversion",
+      "independentVariable": "applied system pressure",
+      "lowDose": "1 atm",
+      "mediumDose": "50 atm",
+      "highDose": "200 atm",
+      "mechanism": "Le Chatelier shift toward the side with fewer gas moles",
+      "archetype": "line",
+      "conceptNote": "By Le Chatelier's principle, increasing pressure on a gas-phase equilibrium shifts the position toward the side with fewer moles of gas, raising the yield when products occupy less volume."
+    },
+    "Acids and Bases": {
+      "outcome": "solution pH",
+      "unit": "pH units",
+      "independentVariable": "volume of strong base titrant added",
+      "lowDose": "5 mL NaOH",
+      "mediumDose": "25 mL NaOH (equivalence)",
+      "highDose": "45 mL NaOH",
+      "mechanism": "neutralization and buffering near the conjugate acid pKa",
+      "archetype": "titrationCurve",
+      "conceptNote": "During titration of a weak acid, pH equals the pKa at the half-equivalence point and rises sharply at the equivalence point where moles of added base equal the initial moles of acid."
+    },
+    "Electrochemistry": {
+      "outcome": "cell potential",
+      "unit": "V",
+      "independentVariable": "ratio of ion concentrations at the electrodes",
+      "lowDose": "[ion] ratio 0.01",
+      "mediumDose": "[ion] ratio 1.0",
+      "highDose": "[ion] ratio 100",
+      "mechanism": "Nernst-equation dependence of potential on reaction quotient",
+      "archetype": "line",
+      "conceptNote": "The Nernst equation, E = E0 - (RT/nF)lnQ, shows that cell potential decreases logarithmically as the reaction quotient rises toward equilibrium where E reaches zero."
+    },
+    "Solutions": {
+      "outcome": "freezing point depression",
+      "unit": "degrees C",
+      "independentVariable": "solute molality",
+      "lowDose": "0.5 mol/kg",
+      "mediumDose": "1.5 mol/kg",
+      "highDose": "3.0 mol/kg",
+      "mechanism": "colligative disruption of solvent crystal lattice formation by dissolved particles",
+      "archetype": "line",
+      "conceptNote": "Freezing point depression is a colligative property given by deltaTf = i*Kf*m, depending only on the molal concentration of dissolved particles and the van't Hoff factor, not their identity."
+    }
+  },
+  "Organic Chemistry": {
+    "Functional Groups": {
+      "outcome": "carbonyl stretch IR absorbance",
+      "unit": "% transmittance",
+      "independentVariable": "wavenumber",
+      "lowDose": "1600 cm-1",
+      "mediumDose": "1715 cm-1",
+      "highDose": "3300 cm-1",
+      "mechanism": "bond dipole vibrational resonance",
+      "archetype": "irSpectrum",
+      "conceptNote": "Each functional group absorbs infrared light at a characteristic wavenumber set by the bond's stiffness and the reduced mass of its atoms, so a carbonyl appears near 1715 cm-1 and an O-H or N-H stretch appears as a broad band near 3300 cm-1."
+    },
+    "Nomenclature": {
+      "outcome": "fraction of structures named correctly",
+      "unit": "% correct",
+      "independentVariable": "molecular complexity (number of substituents)",
+      "lowDose": "1 substituent",
+      "mediumDose": "3 substituents",
+      "highDose": "5 substituents",
+      "mechanism": "IUPAC priority and locant assignment",
+      "archetype": "none",
+      "conceptNote": "IUPAC nomenclature names a compound by selecting the longest carbon chain containing the highest-priority functional group as the parent and numbering it to give that group and the substituents the lowest set of locants."
+    },
+    "Organic Reactions": {
+      "outcome": "percent yield of substitution product",
+      "unit": "% yield",
+      "independentVariable": "nucleophile concentration",
+      "lowDose": "0.05 M",
+      "mediumDose": "0.50 M",
+      "highDose": "2.0 M",
+      "mechanism": "nucleophilic attack on electrophilic carbon",
+      "archetype": "reactionScheme",
+      "conceptNote": "In a bimolecular nucleophilic substitution (SN2) the rate and product yield depend on the concentration of both the nucleophile and the substrate, because the rate-determining step is a single concerted collision between them."
+    },
+    "Reaction Mechanisms": {
+      "outcome": "observed reaction rate constant",
+      "unit": "1/s",
+      "independentVariable": "leaving-group basicity (pKa of conjugate acid)",
+      "lowDose": "pKa -7 (iodide)",
+      "mediumDose": "pKa -1 (tosylate)",
+      "highDose": "pKa 16 (hydroxide)",
+      "mechanism": "rate-limiting carbocation formation",
+      "archetype": "bar",
+      "conceptNote": "In an SN1 or E1 mechanism the slow step is ionization to form a carbocation, so reactivity rises sharply as the leaving group becomes a weaker base (the conjugate acid has a lower pKa) and can stabilize the departing electron pair."
+    },
+    "Stereochemistry": {
+      "outcome": "observed optical rotation",
+      "unit": "degrees",
+      "independentVariable": "enantiomeric excess",
+      "lowDose": "0% ee (racemic)",
+      "mediumDose": "50% ee",
+      "highDose": "100% ee (enantiopure)",
+      "mechanism": "chiral-center interaction with plane-polarized light",
+      "archetype": "line",
+      "conceptNote": "A solution's measured optical rotation is directly proportional to its enantiomeric excess, so a racemic 50:50 mixture is optically inactive while an enantiopure sample gives the full specific rotation of that enantiomer."
+    }
+  },
+  "Biochemistry": {
+    "Amino Acids": {
+      "outcome": "fraction of carboxyl/amino groups deprotonated",
+      "unit": "% deprotonated",
+      "independentVariable": "solution pH during titration",
+      "lowDose": "pH 1.5",
+      "mediumDose": "pH 6.0",
+      "highDose": "pH 11.0",
+      "mechanism": "sequential proton dissociation at characteristic pKa values",
+      "archetype": "titrationCurve",
+      "conceptNote": "An amino acid carries no net charge at its isoelectric point, where the zwitterion predominates and positive and negative charges balance."
+    },
+    "Enzymes": {
+      "outcome": "initial reaction velocity",
+      "unit": "umol/min",
+      "independentVariable": "substrate concentration",
+      "lowDose": "0.5 mM",
+      "mediumDose": "5 mM",
+      "highDose": "50 mM",
+      "mechanism": "active-site saturation following Michaelis-Menten kinetics",
+      "archetype": "line",
+      "conceptNote": "Enzyme velocity rises hyperbolically with substrate concentration toward Vmax, with Km equal to the substrate concentration giving half-maximal rate."
+    },
+    "Metabolism": {
+      "outcome": "glycolytic flux measured as lactate production",
+      "unit": "umol/min per gram",
+      "independentVariable": "fructose-2,6-bisphosphate activator concentration",
+      "lowDose": "0.1 uM",
+      "mediumDose": "1 uM",
+      "highDose": "10 uM",
+      "mechanism": "allosteric activation of phosphofructokinase-1 at the committed step",
+      "archetype": "line",
+      "conceptNote": "Phosphofructokinase-1 catalyzes the committed, rate-limiting step of glycolysis and is allosterically activated by fructose-2,6-bisphosphate and AMP."
+    },
+    "Bioenergetics": {
+      "outcome": "ATP synthesis rate by oxidative phosphorylation",
+      "unit": "nmol/min per mg protein",
+      "independentVariable": "proton-motive force across the inner membrane",
+      "lowDose": "60 mV",
+      "mediumDose": "140 mV",
+      "highDose": "200 mV",
+      "mechanism": "chemiosmotic coupling driving ATP synthase rotation",
+      "archetype": "line",
+      "conceptNote": "ATP synthesis is driven by the proton-motive force established by the electron transport chain, coupling proton flow through ATP synthase to phosphorylation."
+    },
+    "Protein Structure": {
+      "outcome": "fraction of protein in folded native state",
+      "unit": "% folded",
+      "independentVariable": "urea denaturant concentration",
+      "lowDose": "0 M",
+      "mediumDose": "4 M",
+      "highDose": "8 M",
+      "mechanism": "disruption of noncovalent stabilizing interactions causing cooperative unfolding",
+      "archetype": "line",
+      "conceptNote": "Protein tertiary structure is stabilized by hydrogen bonds, hydrophobic interactions, and disulfide bonds, and chemical denaturants unfold proteins in a cooperative transition."
+    },
+    "Carbohydrates": {
+      "outcome": "glucose released by enzymatic hydrolysis",
+      "unit": "mg/mL",
+      "independentVariable": "incubation temperature for amylase digestion",
+      "lowDose": "20 degrees C",
+      "mediumDose": "37 degrees C",
+      "highDose": "60 degrees C",
+      "mechanism": "temperature-dependent cleavage of alpha-1,4 glycosidic bonds with enzyme denaturation at high heat",
+      "archetype": "line",
+      "conceptNote": "Amylase hydrolyzes alpha-1,4 glycosidic bonds in starch, and its activity peaks near physiological temperature before declining as the enzyme denatures."
+    },
+    "Lipids": {
+      "outcome": "membrane lipid bilayer fluidity",
+      "unit": "relative fluidity index",
+      "independentVariable": "membrane cholesterol mole fraction",
+      "lowDose": "5 mol%",
+      "mediumDose": "20 mol%",
+      "highDose": "40 mol%",
+      "mechanism": "cholesterol intercalation modulating phospholipid acyl-chain packing",
+      "archetype": "line",
+      "conceptNote": "Cholesterol buffers membrane fluidity by restraining fluidity above the phase-transition temperature while preventing tight packing below it."
+    },
+    "Nucleic Acids": {
+      "outcome": "fraction of DNA strands denatured",
+      "unit": "% single-stranded",
+      "independentVariable": "temperature relative to melting point",
+      "lowDose": "60 degrees C",
+      "mediumDose": "85 degrees C",
+      "highDose": "95 degrees C",
+      "mechanism": "thermal disruption of complementary base-pair hydrogen bonds",
+      "archetype": "line",
+      "conceptNote": "DNA melting temperature rises with GC content because guanine-cytosine pairs form three hydrogen bonds versus two for adenine-thymine."
+    }
+  },
+  "Physics": {
+    "Kinematics": {
+      "outcome": "horizontal range of a projectile",
+      "unit": "m",
+      "independentVariable": "launch angle above horizontal",
+      "lowDose": "15 degrees",
+      "mediumDose": "45 degrees",
+      "highDose": "75 degrees",
+      "mechanism": "decomposition of initial velocity into independent horizontal and vertical components",
+      "archetype": "line",
+      "conceptNote": "For projectile motion at fixed speed, range follows R = v squared sin(2 theta) divided by g, peaking at a 45 degree launch angle."
+    },
+    "Dynamics": {
+      "outcome": "acceleration of a cart",
+      "unit": "m/s^2",
+      "independentVariable": "net applied force",
+      "lowDose": "2 N",
+      "mediumDose": "6 N",
+      "highDose": "12 N",
+      "mechanism": "Newton's second law relating net force, mass, and acceleration",
+      "archetype": "freeBodyDiagram",
+      "conceptNote": "By Newton's second law a = F_net / m, acceleration is directly proportional to net force for a fixed mass, giving a straight line through the origin."
+    },
+    "Work and Energy": {
+      "outcome": "spring compression distance",
+      "unit": "cm",
+      "independentVariable": "kinetic energy of incident block",
+      "lowDose": "0.5 J",
+      "mediumDose": "2.0 J",
+      "highDose": "4.5 J",
+      "mechanism": "conversion of kinetic energy into elastic potential energy stored in the spring",
+      "archetype": "line",
+      "conceptNote": "By conservation of energy, a block's kinetic energy converts to spring potential energy 0.5 k x squared, so compression scales with the square root of input energy."
+    },
+    "Momentum": {
+      "outcome": "post-collision velocity of the struck cart",
+      "unit": "m/s",
+      "independentVariable": "incoming velocity of the striking cart",
+      "lowDose": "1.0 m/s",
+      "mediumDose": "3.0 m/s",
+      "highDose": "5.0 m/s",
+      "mechanism": "conservation of linear momentum in an elastic collision between equal masses",
+      "archetype": "line",
+      "conceptNote": "In a one-dimensional elastic collision between equal masses, the moving cart stops and transfers its entire velocity to the stationary cart by conservation of momentum and kinetic energy."
+    },
+    "Fluids": {
+      "outcome": "volumetric flow rate through a pipe",
+      "unit": "mL/s",
+      "independentVariable": "pressure difference across the pipe",
+      "lowDose": "200 Pa",
+      "mediumDose": "600 Pa",
+      "highDose": "1200 Pa",
+      "mechanism": "viscous laminar flow governed by the Hagen-Poiseuille relationship",
+      "archetype": "line",
+      "conceptNote": "For laminar flow, Poiseuille's law makes volumetric flow rate directly proportional to the pressure gradient and to the fourth power of the tube radius."
+    },
+    "Waves and Sound": {
+      "outcome": "fundamental frequency of a vibrating string",
+      "unit": "Hz",
+      "independentVariable": "tension applied to the string",
+      "lowDose": "20 N",
+      "mediumDose": "80 N",
+      "highDose": "180 N",
+      "mechanism": "dependence of wave speed on tension and linear mass density in a standing wave",
+      "archetype": "line",
+      "conceptNote": "For a string of fixed length, the fundamental frequency is proportional to the square root of tension, since wave speed equals the square root of tension over linear mass density."
+    },
+    "Optics": {
+      "outcome": "image distance from a converging lens",
+      "unit": "cm",
+      "independentVariable": "object distance from the lens",
+      "lowDose": "15 cm",
+      "mediumDose": "30 cm",
+      "highDose": "60 cm",
+      "mechanism": "refraction described by the thin-lens equation relating object and image distances to focal length",
+      "archetype": "opticsRay",
+      "conceptNote": "The thin-lens equation 1/f = 1/d_o + 1/d_i shows image distance rises sharply as the object approaches the focal point and diverges to infinity at f."
+    },
+    "Electrostatics": {
+      "outcome": "electrostatic force between two charges",
+      "unit": "N",
+      "independentVariable": "separation distance between the charges",
+      "lowDose": "2 cm",
+      "mediumDose": "5 cm",
+      "highDose": "10 cm",
+      "mechanism": "Coulomb's inverse-square law of electrostatic attraction or repulsion",
+      "archetype": "line",
+      "conceptNote": "By Coulomb's law, the force between two point charges is proportional to the product of their charges and inversely proportional to the square of their separation."
+    },
+    "Circuits": {
+      "outcome": "current through a resistor",
+      "unit": "mA",
+      "independentVariable": "voltage across the resistor",
+      "lowDose": "2 V",
+      "mediumDose": "6 V",
+      "highDose": "12 V",
+      "mechanism": "Ohmic conduction relating current, voltage, and resistance",
+      "archetype": "circuit",
+      "conceptNote": "For an ohmic resistor at constant resistance, Ohm's law I = V/R makes current directly proportional to applied voltage, giving a straight line through the origin."
+    },
+    "Magnetism": {
+      "outcome": "magnetic force on a current-carrying wire",
+      "unit": "N",
+      "independentVariable": "current through the wire in a fixed field",
+      "lowDose": "1 A",
+      "mediumDose": "3 A",
+      "highDose": "6 A",
+      "mechanism": "the magnetic Lorentz force on moving charge given by F = B I L sin theta",
+      "archetype": "line",
+      "conceptNote": "The force on a current-carrying conductor in a magnetic field is F = B I L sin theta, so for fixed field, length, and angle the force is directly proportional to current."
+    },
+    "Thermodynamics": {
+      "outcome": "final equilibrium temperature change of water",
+      "unit": "degrees C",
+      "independentVariable": "heat energy supplied",
+      "lowDose": "2000 J",
+      "mediumDose": "6000 J",
+      "highDose": "12000 J",
+      "mechanism": "specific heat capacity relating absorbed heat to temperature rise via Q = m c delta T",
+      "archetype": "line",
+      "conceptNote": "By Q = m c delta T, the temperature rise of a fixed mass of substance is directly proportional to the heat added and inversely proportional to its specific heat capacity."
+    }
+  },
+  "Psychology/Sociology": {
+    "Sensation, Perception": {
+      "outcome": "stimulus detection probability",
+      "unit": "% detected",
+      "independentVariable": "stimulus intensity above absolute threshold",
+      "lowDose": "5 dB SL",
+      "mediumDose": "15 dB SL",
+      "highDose": "30 dB SL",
+      "mechanism": "sensory transduction and signal-detection above absolute threshold",
+      "archetype": "line",
+      "conceptNote": "The absolute threshold is the minimum stimulus intensity detectable 50 percent of the time, and detection probability rises sigmoidally as intensity increases."
+    },
+    "Learning & Memory": {
+      "outcome": "conditioned response magnitude",
+      "unit": "% CR",
+      "independentVariable": "number of CS-US pairing trials",
+      "lowDose": "2 trials",
+      "mediumDose": "10 trials",
+      "highDose": "30 trials",
+      "mechanism": "associative strengthening of the CS-US link via classical conditioning",
+      "archetype": "line",
+      "conceptNote": "In classical conditioning, repeated pairing of a conditioned stimulus with an unconditioned stimulus produces a learning curve where conditioned-response strength grows with trials toward asymptote."
+    },
+    "Cognition, Consciousness, Language": {
+      "outcome": "color-word naming response time",
+      "unit": "ms",
+      "independentVariable": "Stroop word-color congruency condition",
+      "lowDose": "congruent",
+      "mediumDose": "neutral",
+      "highDose": "incongruent",
+      "mechanism": "automatic word reading interfering with controlled color naming in selective attention",
+      "archetype": "groupedBar",
+      "conceptNote": "The Stroop effect shows that automatic processing of word meaning interferes with the controlled task of naming ink color, slowing response time most in the incongruent condition."
+    },
+    "Emotion, Stress, Identity": {
+      "outcome": "salivary cortisol concentration",
+      "unit": "nmol/L",
+      "independentVariable": "acute psychosocial stressor intensity",
+      "lowDose": "rest control",
+      "mediumDose": "mild cognitive task",
+      "highDose": "public-speaking stressor",
+      "mechanism": "HPA-axis activation releasing cortisol in response to perceived threat",
+      "archetype": "groupedBar",
+      "conceptNote": "Acute psychosocial stress activates the hypothalamic-pituitary-adrenal axis, increasing cortisol secretion in proportion to the appraised intensity of the stressor."
+    },
+    "Social Processes I - Self & Others": {
+      "outcome": "conformity rate to incorrect majority",
+      "unit": "% conforming",
+      "independentVariable": "number of unanimous confederates",
+      "lowDose": "1 confederate",
+      "mediumDose": "3 confederates",
+      "highDose": "7 confederates",
+      "mechanism": "normative social influence increasing with majority group size",
+      "archetype": "line",
+      "conceptNote": "In Asch-style conformity studies, the tendency to agree with an incorrect majority rises sharply as group size grows to about three or four and then plateaus."
+    },
+    "Social Processes II - Groups, Culture & Demographics": {
+      "outcome": "number of bystanders who help",
+      "unit": "% helping",
+      "independentVariable": "number of bystanders present",
+      "lowDose": "1 bystander",
+      "mediumDose": "3 bystanders",
+      "highDose": "6 bystanders",
+      "mechanism": "diffusion of responsibility reducing individual helping in larger groups",
+      "archetype": "line",
+      "conceptNote": "The bystander effect shows that the likelihood any individual intervenes in an emergency decreases as the number of bystanders increases, due to diffusion of responsibility."
+    },
+    "Social Inequality & Health": {
+      "outcome": "age-adjusted all-cause mortality rate",
+      "unit": "deaths per 1000 person-years",
+      "independentVariable": "socioeconomic status quintile",
+      "lowDose": "highest SES quintile",
+      "mediumDose": "middle SES quintile",
+      "highDose": "lowest SES quintile",
+      "mechanism": "social gradient in health from differential access to resources and chronic stress",
+      "archetype": "scatter",
+      "conceptNote": "The social gradient in health describes a stepwise rise in morbidity and mortality as socioeconomic status declines, driven by unequal access to resources and greater chronic-stress exposure."
+    },
+    "Biological Bases of Behaviour": {
+      "outcome": "operant lever-pressing rate",
+      "unit": "presses/min",
+      "independentVariable": "dopamine agonist dose",
+      "lowDose": "0.1 mg/kg",
+      "mediumDose": "0.5 mg/kg",
+      "highDose": "2.0 mg/kg",
+      "mechanism": "mesolimbic dopamine signaling in the reward pathway driving reinforcement",
+      "archetype": "line",
+      "conceptNote": "Mesolimbic dopamine activity in the nucleus accumbens mediates reward and reinforcement, so dopaminergic stimulation dose-dependently increases reward-seeking operant behavior."
+    }
+  }
+}
