@@ -11,6 +11,7 @@ SciPrep is an unofficial independent study app for macOS 26.0 or later. It is no
 Version 1.1.0 (build 2) is a universal app containing Apple Silicon (`arm64`) and Intel (`x86_64`) code.
 
 Current public release: [SciPrep macOS 1.1.0](https://github.com/theisegoria/SciPrep-macOS/releases/tag/v1.1.0).
+Published and maintained by [@theisegoria](https://github.com/theisegoria).
 
 Cloud learning sync is unavailable in this ad-hoc build; requires a provisioned distribution build. Offline Learn, flashcards, practice, review, and progress remain available.
 
