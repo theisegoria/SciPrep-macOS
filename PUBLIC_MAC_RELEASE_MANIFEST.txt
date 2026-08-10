@@ -8,5 +8,5 @@ Signing: ad-hoc signed; not notarized
 Notarization: not notarized
 Cloud learning sync: unavailable in this ad-hoc build; requires a provisioned distribution build
 Source: intentionally omitted
-Source revision: 7f2c2c0085f36a8ad21b3ecac00c6dc0f176e62d
-ZIP SHA-256: 7f76f807fdd8ea67c76e352d8cce75c6a4917eff18cb94206ac7489d39fc6b13
+Source revision: ac5bfa8c12f8a94d642de832a8951e9596dbaebc
+ZIP SHA-256: 7aaddb5bc9ef31ac719f51f19f26926c4bdd9022b1c7f49ff99a7397ce304199
