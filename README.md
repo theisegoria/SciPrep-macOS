@@ -8,7 +8,9 @@ SciPrep is an unofficial independent study app for macOS 26.0 or later. It is no
 2. Double-click the ZIP, then move `SciPrepMac.app` to Applications.
 3. Open the app normally. If macOS blocks this ad-hoc baseline build, Control-click the app, choose **Open**, then confirm. Only do this after checking the checksum and trusting the download source.
 
-Version 1.0.0 (build 1) is a universal app containing Apple Silicon (`arm64`) and Intel (`x86_64`) code.
+Version 1.1.0 (build 2) is a universal app containing Apple Silicon (`arm64`) and Intel (`x86_64`) code.
+
+Cloud learning sync is unavailable in this ad-hoc build; requires a provisioned distribution build. Offline Learn, flashcards, practice, review, and progress remain available.
 
 ## Release contents
 

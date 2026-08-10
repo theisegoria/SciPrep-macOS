@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Assets.car</key>
 		<data>
-		gqpeZGDP9DV4sr3ezlQdNflWMGI=
+		2edaKtIVcnzciwPYcCxBaLB7JrE=
 		</data>
 		<key>Resources/GenerationCatalog.json</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Resources/MacAppIcon.icns</key>
 		<data>
-		8H6P32s8Ilmg81V0PRFuMK7pIgc=
+		kYCbhQOHxuOkY7iFR7XXwhFlcZ8=
 		</data>
 		<key>Resources/cell-membrane-editorial.png</key>
 		<data>
@@ -27,6 +27,10 @@
 		<key>Resources/chemistry-equilibrium-editorial.png</key>
 		<data>
 		q/pmCO3C5S843uPCXErmSDUZidA=
+		</data>
+		<key>Resources/knowledge.sqlite</key>
+		<data>
+		MRe3oEfxXQg24LXC/I6ob6b0/Tc=
 		</data>
 		<key>Resources/physics-optics-circuit-editorial.png</key>
 		<data>
@@ -43,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			h177FnBpgrUvtH59kqVzwcBHPCKwwodgDUR9BvN/Lvw=
+			VrVesg04KvyGZSbSc0r2e5f6s+aBdjgs6cxV2Dm95LM=
 			</data>
 		</dict>
 		<key>Resources/GenerationCatalog.json</key>
@@ -64,7 +68,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q8x1p1przRzyY70cO5WVZ+Wz2lNdIAuzqngy9Pz4qoo=
+			5uax8kgQeNjAzq90LzMnYT98Si1jTbIX5etgUgOeY64=
 			</data>
 		</dict>
 		<key>Resources/cell-membrane-editorial.png</key>
@@ -79,6 +83,13 @@
 			<key>hash2</key>
 			<data>
 			MODQkUcn1p7GgLOPFdKxA2RRjumAqAuY9N+pYckhbm0=
+			</data>
+		</dict>
+		<key>Resources/knowledge.sqlite</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rRUannh1CcVkqSV4chbYuonC6E1b1Wkm3HYzsTNOUNM=
 			</data>
 		</dict>
 		<key>Resources/physics-optics-circuit-editorial.png</key>
