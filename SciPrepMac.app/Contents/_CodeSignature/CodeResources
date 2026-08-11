@@ -20,6 +20,10 @@
 		<data>
 		kYCbhQOHxuOkY7iFR7XXwhFlcZ8=
 		</data>
+		<key>Resources/atlas-medical-hero.png</key>
+		<data>
+		rTH/ktG4+Zk8fhqqNB6KeKwtGg4=
+		</data>
 		<key>Resources/cell-membrane-editorial.png</key>
 		<data>
 		g1c3GUN3e5jUiBQhW2iFy6igSko=
@@ -32,6 +36,10 @@
 		<data>
 		SdAjOgPnF8HX+JRDdwWPBE7DT5c=
 		</data>
+		<key>Resources/learn-knowledge-hero.png</key>
+		<data>
+		+LThhruiEVCK9L5XhZ6cnwIDjfI=
+		</data>
 		<key>Resources/physics-optics-circuit-editorial.png</key>
 		<data>
 		c4Y1hyQTQ8IDFYKZVB2rKxomgbg=
@@ -39,6 +47,10 @@
 		<key>Resources/psychology-neural-editorial.png</key>
 		<data>
 		mkqEGvNx99trg4dt2TIvZG1u/OA=
+		</data>
+		<key>Resources/today-study-hero.png</key>
+		<data>
+		dda9wnqobyRr9zjmnzLpSYFxR/g=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -71,6 +83,13 @@
 			5uax8kgQeNjAzq90LzMnYT98Si1jTbIX5etgUgOeY64=
 			</data>
 		</dict>
+		<key>Resources/atlas-medical-hero.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3ZOfi5B1GEprrxJ06cEF3ONhFC49tU0p9LWh39QdKdc=
+			</data>
+		</dict>
 		<key>Resources/cell-membrane-editorial.png</key>
 		<dict>
 			<key>hash2</key>
@@ -92,6 +111,13 @@
 			9lCbPCG29icZ4rcX3cvjArU93K1EVQqr3DvJPpPB8r8=
 			</data>
 		</dict>
+		<key>Resources/learn-knowledge-hero.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4OD1du7wyIy4B1yohXgscZej5YqhdNuXp9mpGtKka9A=
+			</data>
+		</dict>
 		<key>Resources/physics-optics-circuit-editorial.png</key>
 		<dict>
 			<key>hash2</key>
@@ -104,6 +130,13 @@
 			<key>hash2</key>
 			<data>
 			kCbOOtQ8/XJknk2kA9TGc6W3ixTs9eCWyJe+3ORTtls=
+			</data>
+		</dict>
+		<key>Resources/today-study-hero.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bWD+bM/SopcHJHoixaqAcrVK6HJuIMopXdRu632TCQY=
 			</data>
 		</dict>
 	</dict>
