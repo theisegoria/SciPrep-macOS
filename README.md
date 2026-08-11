@@ -8,9 +8,9 @@ SciPrep is an unofficial independent study app for macOS 26.0 or later. It is no
 2. Double-click the ZIP, then move `SciPrepMac.app` to Applications.
 3. Open the app normally. If macOS blocks this ad-hoc baseline build, Control-click the app, choose **Open**, then confirm. Only do this after checking the checksum and trusting the download source.
 
-Version 1.1.0 (build 2) is a universal app containing Apple Silicon (`arm64`) and Intel (`x86_64`) code.
+Version 1.2.0 (build 3) is a universal app containing Apple Silicon (`arm64`) and Intel (`x86_64`) code. This release expands Learn into a 420-objective offline exam and preclinical medicine library with 2,574 flashcards, 238 Atlas entries, and native semantic diagrams.
 
-Current public release: [SciPrep macOS 1.1.0](https://github.com/theisegoria/SciPrep-macOS/releases/tag/v1.1.0).
+Current public release: [SciPrep macOS 1.2.0](https://github.com/theisegoria/SciPrep-macOS/releases/tag/v1.2.0).
 Published and maintained by [@theisegoria](https://github.com/theisegoria).
 
 Cloud learning sync is unavailable in this ad-hoc build; requires a provisioned distribution build. Offline Learn, flashcards, practice, review, and progress remain available.
