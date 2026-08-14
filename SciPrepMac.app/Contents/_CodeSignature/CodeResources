@@ -24,6 +24,38 @@
 		<data>
 		rTH/ktG4+Zk8fhqqNB6KeKwtGg4=
 		</data>
+		<key>Resources/cardiovascular-electrophysiology.png</key>
+		<data>
+		wwNcbD/tJYAH42uFG7TqOIE8tJA=
+		</data>
+		<key>Resources/cardiovascular-embryology.png</key>
+		<data>
+		SpzB14hrReduTkU6iFwD1/tMqbY=
+		</data>
+		<key>Resources/cardiovascular-gross-anatomy.png</key>
+		<data>
+		AfGJZjt8k1tzHeaXcowj7yMYaHI=
+		</data>
+		<key>Resources/cardiovascular-haemodynamics.png</key>
+		<data>
+		3IiHbCyKuWUxXzWYXN1CjRVyofw=
+		</data>
+		<key>Resources/cardiovascular-histology.png</key>
+		<data>
+		zMRVBIl4Im74QfxsT5J+tatWXMw=
+		</data>
+		<key>Resources/cardiovascular-pathophysiology.png</key>
+		<data>
+		EitENfOUiSdvLh2C4/rx692KTNQ=
+		</data>
+		<key>Resources/cardiovascular-pharmacology.png</key>
+		<data>
+		tfq/L58okKcKFBzg76OYtX9PKCM=
+		</data>
+		<key>Resources/cardiovascular-pump-mechanics.png</key>
+		<data>
+		RSBIJOBnAtE1l2K90nUNSrM7r4A=
+		</data>
 		<key>Resources/cell-membrane-editorial.png</key>
 		<data>
 		g1c3GUN3e5jUiBQhW2iFy6igSko=
@@ -34,7 +66,7 @@
 		</data>
 		<key>Resources/knowledge.sqlite</key>
 		<data>
-		SdAjOgPnF8HX+JRDdwWPBE7DT5c=
+		2JO42wgR48216K18yry7NzGaneY=
 		</data>
 		<key>Resources/learn-knowledge-hero.png</key>
 		<data>
@@ -90,6 +122,62 @@
 			3ZOfi5B1GEprrxJ06cEF3ONhFC49tU0p9LWh39QdKdc=
 			</data>
 		</dict>
+		<key>Resources/cardiovascular-electrophysiology.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DdpekKyezDVDf/R3nM+O0AaSgIfA11vxlRv2SqaoFws=
+			</data>
+		</dict>
+		<key>Resources/cardiovascular-embryology.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CAlOTrKgMXrWgQhKs9MQCAV7vXpaQ2w89snlCcbWWL0=
+			</data>
+		</dict>
+		<key>Resources/cardiovascular-gross-anatomy.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RgalSic2s/GZoRA5sxWzaniZn61nBdqXltrhoy2T6bA=
+			</data>
+		</dict>
+		<key>Resources/cardiovascular-haemodynamics.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IwNyXPJEpAfXzufcO+bpmsbpQ2FyCVv0f4HHJNT8e5c=
+			</data>
+		</dict>
+		<key>Resources/cardiovascular-histology.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Xnm+FXZAq4PGoVLmUhh3WsCRsD2oooxE9A+jssZHTSw=
+			</data>
+		</dict>
+		<key>Resources/cardiovascular-pathophysiology.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jq1wBliMDLoDqWpd8r+34LhqfpQSs5V5EdffOypAsS8=
+			</data>
+		</dict>
+		<key>Resources/cardiovascular-pharmacology.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5L56NO5j5AUZigAWUqD0epRccBHF95uQveqGOswX28w=
+			</data>
+		</dict>
+		<key>Resources/cardiovascular-pump-mechanics.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9lilrLUrCcti6mgeXKV+N6V6EOOE8NERdNp996wJBN4=
+			</data>
+		</dict>
 		<key>Resources/cell-membrane-editorial.png</key>
 		<dict>
 			<key>hash2</key>
@@ -108,7 +196,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9lCbPCG29icZ4rcX3cvjArU93K1EVQqr3DvJPpPB8r8=
+			K4aHa6Bg/W+N9rpXnDq4lzwjAGRQltb1UyL6QAA6KdA=
 			</data>
 		</dict>
 		<key>Resources/learn-knowledge-hero.png</key>
