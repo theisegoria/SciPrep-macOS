@@ -8,19 +8,20 @@ SciPrep is an unofficial independent study app for macOS 26.0 or later. It is no
 2. Double-click the ZIP, then move `SciPrepMac.app` to Applications.
 3. Open the app normally. If macOS blocks this ad-hoc baseline build, Control-click the app, choose **Open**, then confirm. Only do this after checking the checksum and trusting the download source.
 
-Version 3.0.0 (build 6) is a universal app containing Apple Silicon (`arm64`) and Intel (`x86_64`) code.
+Version 3.0.1 (build 7) is a universal app containing Apple Silicon (`arm64`) and Intel (`x86_64`) code.
 
-Current public release: [SciPrep macOS 3.0.0](https://github.com/theisegoria/SciPrep-macOS/releases/tag/v3.0.0).
+Current public release: [SciPrep macOS 3.0.1](https://github.com/theisegoria/SciPrep-macOS/releases/tag/v3.0.1).
 Published and maintained by [@theisegoria](https://github.com/theisegoria).
 
 Cloud learning sync is unavailable in this ad-hoc build; requires a provisioned distribution build. Offline Learn, flashcards, practice, review, and progress remain available.
 
-## What’s new in 3.0
+## What’s included in 3.0.1
 
 - A broad offline preclinical medical encyclopedia with 840 medical objectives, plus 183 GAMSAT/MCAT objectives and cross-linked A–Z, system, discipline, structure, pathway, molecule, drug-class, and formula indexes.
 - Dual flagship depth: 50 cardiovascular objectives and 100 neuroscience objectives, including a native whole-neuroaxis spatial atlas with 158 selectable semantic entities.
 - 15,297 structured flashcards with deterministic FSRS-6 scheduling, spatial-label, case-sequence, diagram, calculation, comparison, and misconception cards alongside preserved review history.
 - 1,028 validated native scientific scenes, schema-6 panel and label layout, three neuroscience editorial plates, and eight cardiovascular editorial illustrations. Exact labels, geometry, quantities, and interactions remain native and accessible.
+- More reliable exact-title knowledge search and native editorial-art loading, with fail-closed content gates that keep unfinished future curriculum material out of the public library.
 
 ## Release contents
 
